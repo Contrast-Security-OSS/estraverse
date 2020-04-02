@@ -1,5 +1,5 @@
 {
-  "name": "estraverse",
+  "name": "@contrast/estraverse",
   "description": "ECMAScript JS AST traversal functions",
   "homepage": "https://github.com/estools/estraverse",
   "main": "estraverse.js",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/estools/estraverse.git"
+    "url": "http://github.com/Contrast-Security-Inc/estraverse.git"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
