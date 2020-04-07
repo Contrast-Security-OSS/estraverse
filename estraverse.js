@@ -87,6 +87,8 @@
         ClassBody: 'ClassBody',
         ClassDeclaration: 'ClassDeclaration',
         ClassExpression: 'ClassExpression',
+        ClassProperty: 'ClassProperty',
+        ClassPrivateProperty: 'ClassPrivateProperty',
         ComprehensionBlock: 'ComprehensionBlock',  // CAUTION: It's deferred to ES7.
         ComprehensionExpression: 'ComprehensionExpression',  // CAUTION: It's deferred to ES7.
         ConditionalExpression: 'ConditionalExpression',
