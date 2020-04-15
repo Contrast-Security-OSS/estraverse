@@ -87,6 +87,8 @@
         ClassBody: 'ClassBody',
         ClassDeclaration: 'ClassDeclaration',
         ClassExpression: 'ClassExpression',
+        ClassProperty: 'ClassProperty',
+        ClassPrivateProperty: 'ClassPrivateProperty',
         ComprehensionBlock: 'ComprehensionBlock',  // CAUTION: It's deferred to ES7.
         ComprehensionExpression: 'ComprehensionExpression',  // CAUTION: It's deferred to ES7.
         ConditionalExpression: 'ConditionalExpression',
@@ -162,6 +164,8 @@
         ClassBody: ['body'],
         ClassDeclaration: ['id', 'superClass', 'body'],
         ClassExpression: ['id', 'superClass', 'body'],
+        ClassProperty: ['key', 'value'],
+        ClassPrivateProperty: ['key', 'value'],
         ComprehensionBlock: ['left', 'right'],  // CAUTION: It's deferred to ES7.
         ComprehensionExpression: ['blocks', 'filter', 'body'],  // CAUTION: It's deferred to ES7.
         ConditionalExpression: ['test', 'consequent', 'alternate'],
